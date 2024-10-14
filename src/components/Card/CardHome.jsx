@@ -12,7 +12,7 @@ const CardHome = ({ title, totalProcess, totalFinish, icon }) => {
           <div className="mt-3 w-4/5 text-overpost">
             <p className="text-center text-aqua text-lg mb-3">Diproses</p>
             {/* UBAH JDI LINK WAKTU UDH INTEGRASI SAMA API */}
-            <div className="bg-glacier_blue rounded-lg h-28 flex flex-col items-center justify-center transition-transform transform duration-300 hover:scale-105 cursor-pointer">
+            <div className="bg-glacier_blue rounded-lg h-28 flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 cursor-pointer">
               <div className="">{icon}</div>
               <p className="mt-1 text-lg">
                 {totalProcess} {title}
@@ -24,7 +24,7 @@ const CardHome = ({ title, totalProcess, totalFinish, icon }) => {
           <div className="mt-3 w-4/5 text-overpost">
             <p className="text-center text-aqua text-lg mb-3">Selesai</p>
             {/* UBAH JDI LINK WAKTU UDH INTEGRASI SAMA API */}
-            <div className="bg-aqua rounded-lg h-28 flex flex-col items-center justify-center  transition-transform transform duration-300 hover:scale-105 cursor-pointer">
+            <div className="bg-aqua rounded-lg h-28 flex flex-col items-center justify-center  transition-transform duration-300 hover:scale-105 cursor-pointer">
               <div className="">{icon}</div>
               <p className="mt-1 text-lg">
                 {totalFinish} {title}

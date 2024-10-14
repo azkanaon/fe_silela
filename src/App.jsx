@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import AccountRequest from "./pages/AccountRequest";
 import SidebarMobile from "./components/Sidebar/SidebarMobile";
 import Navbar from "./components/Navbar/Navbar";
+import ResetPasswordPage from "./pages/ResetPasswordPage";
 
 const App = () => {
   const location = useLocation();
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/login_admin" element={<LoginPage />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/riwayat" element={<AccountRequest />} />
+          <Route path="/reset-password" element={<ResetPasswordPage />} />
         </Routes>
       </div>
     </div>

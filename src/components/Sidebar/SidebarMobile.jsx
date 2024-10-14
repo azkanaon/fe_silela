@@ -15,7 +15,7 @@ const SidebarMobile = () => {
   return (
     <div
       className={cn(
-        `relative h-screen w-72 bg-ocean text-overpost transition-all duration-300`,
+        ` relative h-screen w-72 bg-ocean text-overpost transition-all duration-300`,
         !isOpen && "w-0"
       )}
     >
