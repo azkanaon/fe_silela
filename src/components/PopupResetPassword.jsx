@@ -5,7 +5,7 @@ const PopupResetPassword = ({ handleOpen }) => {
   return (
     <div className="fixed inset-0 bg-black/65">
       <div className="flex items-center justify-center h-screen text-overpost">
-        <div className="w-full md:w-1/4 mx-4 md:mx-0  relative bg-aqua rounded-lg flex flex-col items-center ">
+        <div className="w-full md:w-2/3 lg:w-1/4 mx-4 md:mx-0  relative bg-aqua rounded-lg flex flex-col items-center ">
           <button
             className="absolute top-4 right-4 text-glacier_blue hover:text-glacier_blue/40"
             onClick={() => {

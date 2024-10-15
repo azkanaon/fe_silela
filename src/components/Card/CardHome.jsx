@@ -41,7 +41,7 @@ CardHome.propTypes = {
   title: PropTypes.string,
   totalFinish: PropTypes.number,
   totalProcess: PropTypes.number,
-  icon: PropTypes.elementType,
+  icon: PropTypes.object,
 };
 
 export default CardHome;

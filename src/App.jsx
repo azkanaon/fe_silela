@@ -6,6 +6,7 @@ import AccountRequest from "./pages/AccountRequest";
 import SidebarMobile from "./components/Sidebar/SidebarMobile";
 import Navbar from "./components/Navbar/Navbar";
 import ResetPasswordPage from "./pages/ResetPasswordPage";
+import LetterRequest from "./pages/LetterRequest";
 
 const App = () => {
   const location = useLocation();
@@ -26,7 +27,8 @@ const App = () => {
         <Routes>
           <Route path="/login_admin" element={<LoginPage />} />
           <Route path="/" element={<HomePage />} />
-          <Route path="/riwayat" element={<AccountRequest />} />
+          <Route path="/registrasi-akun" element={<AccountRequest />} />
+          <Route path="/surat-keterangan" element={<LetterRequest />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
         </Routes>
       </div>
